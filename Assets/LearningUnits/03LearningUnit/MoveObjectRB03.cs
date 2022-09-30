@@ -17,5 +17,6 @@ public class MoveObjectRB03 : MonoBehaviour
     void Update()
     {
         rigidbody.AddForce(moveDirection, ForceMode.Force); // Don't change this!
+        //the blue cubes mass was way too high to be moved so i lowered it to 1
     }
 }

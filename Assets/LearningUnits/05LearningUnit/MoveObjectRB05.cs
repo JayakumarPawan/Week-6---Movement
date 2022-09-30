@@ -17,5 +17,6 @@ public class MoveObjectRB05 : MonoBehaviour
     void Update()
     {
         rigidbody.AddForce(moveDirection, ForceMode.Force); // Don't change this!
+        //unchecked the is kinematic box which was previously preventing it from experiencing any forces
     }
 }

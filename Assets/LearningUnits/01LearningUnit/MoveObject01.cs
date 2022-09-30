@@ -18,6 +18,6 @@ public class MoveObject01 : MonoBehaviour
     {
         // My position equals my position PLUS 
 	    // where I want to be by the end of this frame...
-        transform.position = transform.position + Vector3.zero;
+        transform.position = transform.position + new Vector3(-0.01f,0,0); //change vector3.zero to having small movement in the negative x axis (left)
     }
 }
